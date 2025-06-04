@@ -1,0 +1,34 @@
+{
+  "name": "Mihir.page",
+  "short_name": "Mihir",
+  "description": "Personal Portfolio & Project Hub",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Projects",
+      "url": "/projects",
+      "description": "View my projects"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog",
+      "description": "Read my blog posts"
+    }
+  ],
+  "categories": ["portfolio", "blog", "projects"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "prefer_related_applications": false
+} 
