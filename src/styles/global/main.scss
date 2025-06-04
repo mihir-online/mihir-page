@@ -1,13 +1,16 @@
 // Import theme files
-@import '../themes/variables';
-@import '../themes/colors';
-@import '../themes/typography';
+@import '@styles/themes/variables';
+@import '@styles/themes/colors';
+@import '@styles/themes/typography';
 
 // Import global styles
 @import 'reset';
 @import 'base';
 
 // Import mixins
-@import '../mixins/animations';
-@import '../mixins/breakpoints';
-@import '../mixins/utilities'; 
+@import '@styles/mixins/animations';
+@import '@styles/mixins/breakpoints';
+@import '@styles/mixins/utilities';
+
+// Import components
+@import '@styles/components/index'; 

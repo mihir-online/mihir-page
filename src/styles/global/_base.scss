@@ -3,6 +3,21 @@
 @import '../themes/colors';
 @import '../themes/typography';
 
+// App-level styles
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 // Basic Typography
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-heading;
