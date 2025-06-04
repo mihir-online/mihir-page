@@ -1,0 +1,35 @@
+// Fade in animation
+@mixin fade-in($duration: 0.3s) {
+  animation: fadeIn $duration ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+// Slide in animation
+@mixin slide-in($direction: 'left', $duration: 0.3s) {
+  animation: slideIn $duration ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+// Page flip animation
+@mixin page-flip($duration: 0.6s) {
+  transform-style: preserve-3d;
+  transition: transform $duration ease-in-out;
+  
+  &:hover {
+    transform: rotateY(180deg);
+  }
+} 

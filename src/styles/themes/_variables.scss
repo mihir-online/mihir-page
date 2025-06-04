@@ -1,0 +1,20 @@
+// Spacing
+$spacing-unit: 8px;
+$spacing-small: $spacing-unit;
+$spacing-medium: $spacing-unit * 2;
+$spacing-large: $spacing-unit * 3;
+
+// Border Radius
+$border-radius-small: 4px;
+$border-radius-medium: 8px;
+$border-radius-large: 16px;
+
+// Z-index layers
+$z-index-base: 1;
+$z-index-dropdown: 1000;
+$z-index-sticky: 1020;
+$z-index-fixed: 1030;
+$z-index-modal-backdrop: 1040;
+$z-index-modal: 1050;
+$z-index-popover: 1060;
+$z-index-tooltip: 1070; 

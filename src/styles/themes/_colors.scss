@@ -1,0 +1,18 @@
+// Brand Colors
+$color-primary: #007AFF;
+$color-secondary: #5856D6;
+
+// Neutral Colors
+$color-background: #FFFFFF;
+$color-text: #000000;
+$color-text-secondary: #666666;
+
+// Semantic Colors
+$color-success: #34C759;
+$color-warning: #FF9500;
+$color-error: #FF3B30;
+$color-info: #5856D6;
+
+// Gradients
+$gradient-primary: linear-gradient(135deg, $color-primary, $color-secondary);
+$gradient-dark: linear-gradient(135deg, darken($color-primary, 10%), darken($color-secondary, 10%)); 
