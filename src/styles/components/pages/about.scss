@@ -1,6 +1,6 @@
 .about-page {
   min-height: 100vh;
-  background-color: #f9fafb;
+  background-color: var(--color-background-secondary);
   padding: 3rem 1rem;
 
   @media (min-width: 640px) {
@@ -19,25 +19,25 @@
   h1 {
     font-size: 2.25rem;
     font-weight: 700;
-    color: #111827;
+    color: var(--color-text-primary);
     margin-bottom: 2rem;
   }
 
   .about-content {
-    background-color: white;
+    background-color: var(--color-background);
     border-radius: 0.5rem;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
     margin-bottom: 2rem;
 
     p {
-      color: #4b5563;
+      color: var(--color-text-secondary);
       margin-bottom: 1.5rem;
     }
   }
 
   .contact-section {
-    background-color: white;
+    background-color: var(--color-background);
     border-radius: 0.5rem;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
@@ -45,7 +45,7 @@
     h2 {
       font-size: 1.5rem;
       font-weight: 600;
-      color: #111827;
+      color: var(--color-text-primary);
       margin-bottom: 2rem;
     }
 
@@ -56,7 +56,7 @@
     }
 
     .contact-item {
-      border-bottom: 1px solid #e5e7eb;
+      border-bottom: 1px solid var(--color-border);
       padding-bottom: 1rem;
 
       &:last-child {
@@ -67,7 +67,7 @@
         display: flex;
         align-items: center;
         gap: 1rem;
-        color: #4b5563;
+        color: var(--color-text-secondary);
         transition: color 0.2s ease;
 
         .icon {
@@ -82,21 +82,22 @@
 
           .label {
             font-size: 0.875rem;
-            color: #6b7280;
+            color: var(--color-text-secondary);
           }
 
           .value {
             font-size: 1.125rem;
+            color: var(--color-text-primary);
           }
         }
 
         // Hover states
         &:hover {
           &.email {
-            color: #2563eb;
+            color: var(--color-primary);
           }
           &.github {
-            color: #111827;
+            color: var(--color-text-primary);
           }
           &.linkedin {
             color: #0a66c2;
